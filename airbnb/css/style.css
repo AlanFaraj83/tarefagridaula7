@@ -11,12 +11,16 @@ main {
     width: 80%;
     margin: 0 auto;
     padding-top: 100px;
+    border-top: 1px solid #222;
+    margin-top: 25px;
+    
 }
 
 .box-title {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .box-title h1 {
@@ -79,3 +83,87 @@ div.photos {
     object-fit: cover;
 
 }
+
+
+
+
+header {
+    margin-top: 10px;
+}
+
+.caixa1 {
+    display: flex;
+    justify-content:space-around;
+    margin: 0 auto;
+}
+
+.acomodar {
+    color: #222;
+    font-weight: 700;
+}
+
+.anuncia {
+    color: #222;
+    font-weight: 700;
+}
+
+
+
+.Logo {
+    width: 102px;
+    height: 32px;
+}
+
+a {
+    color: #222;
+    text-decoration: none;
+    
+}
+
+
+.caixabotao {
+    display: flex;
+}
+
+div.caixa2 {
+    display: flex;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 15px;
+    
+}
+
+.lugar {
+    border-radius: 20px 0px 0px 20px;
+    border:1px solid rgb(244, 244, 236);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+    padding-left: 80px;
+    text-align:center;
+    justify-content: center;
+    
+}
+
+.semana {
+    border: none;
+    border: 0px;
+    box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.2);
+    padding-left: 80px;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.hospede {
+    border-radius: 10px 0px 0px 10px;
+    border: none;
+    border: 0px;
+    box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.2);
+    padding-left: 80px;
+    text-align: center;
+    justify-content: center;
+}
+
+#linha-vertical {
+    border: 0.2px solid black;
+}
+
