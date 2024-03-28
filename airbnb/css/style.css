@@ -317,11 +317,16 @@ align-items: center;
     margin: 0 auto;
 }
 
-
+.preferido {
+    width: 115px;
+    text-align:center;
+}
 
 
 .preferido p {
     
     font-weight: bold;
+    text-align:center;
+    
 }
 
