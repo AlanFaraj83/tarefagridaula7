@@ -85,33 +85,84 @@ div.photos {
 }
 
 
-
+/* Estilizando a parte do menu*/
 
 header {
     margin-top: 10px;
+    flex-wrap: wrap;
 }
 
-.caixa1 {
+.container {
     display: flex;
-    justify-content:space-around;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}   
+
+.caixa2 {
+    display: flex;
     margin: 0 auto;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    flex-wrap: wrap;
+    border-radius: 18px 18px 18px 18px;
+    padding: 0 10px;
+    
+    
+    
 }
 
-.acomodar {
-    color: #222;
-    font-weight: 700;
+.caixa2 button {
+    border: none;
+    background-color: #fff;
+    padding: 10px 20px;
+    flex-wrap: wrap;
+   
+    
+    
 }
 
-.anuncia {
-    color: #222;
-    font-weight: 700;
+.hospede {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    align-items: center;
 }
+
+.hospede-busca {
+    border: 1px solid rgb(221, 221, 226);
+    padding: 15px 15px;
+    border-radius: 500px;
+    background-color: rgb(243, 13, 13);
+    color: #fff;
+    
+}
+.lugar {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #000000;
+    font-weight: bold;
+    flex-wrap: wrap;
+}
+
+.qualquer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #000000;
+    font-weight: bold;
+    flex-wrap: wrap;
+}
+.caixa1 {
+    margin-left: 150px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+    
 
 
 
 .Logo {
     width: 102px;
     height: 32px;
+    margin-right: 100px;
 }
 
 a {
@@ -125,58 +176,11 @@ a {
     display: flex;
 }
 
-div.caixa2 {
-    display: flex;
-    width: 300px;
-    margin: 0 auto;
-    margin-top: 15px;
-    justify-content: center;
-    
-}
 
-.lugar {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    font-weight: bolder;
-    color: black;
-    border-radius: 25px 0px 0px 25px;
-    border:1px solid rgb(244, 244, 236);
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
-    padding-left: 30px;
-    justify-content: center;
-    
-}
-
-.semana {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    font-weight: bolder;
-    color: black;
-    border: none;
-    border: 0px;
-    box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.2);
-    padding-left: 30px;
-    text-align: center;
-    justify-content: center;
-
-}
-
-.hospede {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    font-weight: bolder;
-    color: black;
-    border-radius: 0px 25px 25px 0px;
-    border: none;
-    border: 0px;
-    box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.2);
-    padding-left: 30px;
-    text-align: center;
-    justify-content: center;
-}
 
 #linha-vertical {
     border: 0.2px solid black;
+    height: 50px;
 }
 
 button {
@@ -192,5 +196,132 @@ button {
 
 p {
     margin-top: 5px;
+}
+
+.anuncia {
+    margin: 0 auto;
+    color: #000000;
+    font-weight: bold;
+    
+}
+
+
+
+.container-Login {
+    border: 1px solid rgb(232, 232, 236);
+    border-radius: 100px;
+    padding: 10px 10px;
+    margin-left: 80px;
+    margin-right: 155px;
+    display: flex;
+    margin: 0 20px;
+    
+}
+
+.container-Login div {
+    display: flex;
+}
+
+.caixa-Login {
+    margin: 10px 10px;
+}
+
+
+
+svg.login {
+    height: 16px;
+    width: 16px;
+    
+    
+}
+
+svg.globoPessoa {
+    color:rgb(118, 118, 122);
+}
+
+.container-avaliacao {
+    display: flex;
+    border: 1px solid rgb(232, 232, 236);
+    border-radius: 20px;
+    width: 560px;
+    margin-top: 20px;
+    padding: 16px 16px;
+}
+
+
+.estrela {
+display: flex;
+align-items: center;
+}
+
+.nota {
+    margin: 0 auto;
+    margin-right: 10px;
+    
+}
+
+.nota-valor {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 10px;
+    font-weight: bold;
+    align-items: center;
+}
+
+
+
+.container-pontos {
+    margin: 0 auto;
+    font-weight: bold;
+    line-height: 0.8;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+.ponto-valor {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.ponto-avalia {
+    font-size: 11px;
+    text-decoration: underline;
+}
+
+.container-planta {
+    display: flex;
+    margin: 0 auto;
+}
+
+.palavra-acomodar {
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.container-acomodar {
+    margin: 0 auto;
+
+}
+
+.palavra-acomodar p {
+    margin: 0 auto;
+}
+
+
+
+
+.preferido p {
+    
+    font-weight: bold;
 }
 
