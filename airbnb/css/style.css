@@ -330,3 +330,248 @@ align-items: center;
     
 }
 
+.container-anfitriao-hospedes {
+    display: flex;
+    align-items:end;
+    gap: 20px;
+    
+   
+}
+
+.garota-sorrindo {
+    width: 45px;
+    height: 45px;
+    border-radius: 100px;
+    margin-top: 40px;
+    object-fit: cover;
+}
+
+
+.palavra-anfitriao {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.palavra-hospedando {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgb(161, 161, 164);
+}
+
+.linha-horizontal {
+    width: 48%;
+    border-bottom: 1px solid #bcb9b9;
+    margin-top: 15px;
+
+}
+
+.icone-mesinha {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 35px;
+}
+
+.palavra-exclusivo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.palavra-wifi {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgb(157, 157, 159);
+
+}
+
+.icone-localizacao {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 35px;
+}
+
+.palavra-localizar {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.palavra-estrelas {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgb(157, 157, 159);
+}
+
+.icone-chave {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 35px;
+}
+
+.palavra-checkin {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.palavra-processo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgb(157, 157, 159);
+}
+
+.container-traduzidas {
+    
+    margin-top: 30px;
+    background-color: rgb(242, 242, 246);
+    width: 500px;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+.caixa-palavras-traduzida {
+    display: flex;
+    padding-right: 10px;
+}
+
+.palavra-traduzida {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #4d4c4c;
+}
+
+.exibir {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight:600;
+    text-decoration: underline;
+}
+
+.containerProjetada {
+    margin-top: 30px;
+}    
+
+.palavra-projetada-cafe {
+    color: #4d4c4c;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.tresPontos {
+    margin-bottom: 15px;
+}
+
+.mostraMais-palavra {
+    display: flex;
+    align-items:center;
+}
+
+.mostraMais {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration:underline;
+    margin-bottom: 30px;
+    
+}
+
+.mostraMais-palavra svg{
+    margin-left: 2px;
+    margin-bottom: 30px;
+}
+
+.containerMax {
+    margin-top: 48px;
+    
+}
+
+.palavra-dormir {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.imagem-quarto {
+    border-radius: 10px;
+    margin-bottom: 4px;
+}
+
+.palavra-quarto {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:550;
+}
+
+.palavra-casal {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4d4c4c;
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+
+.containerMax2 {
+    margin-top: 40px;
+}
+
+.caixa-titulo-botao h2 {
+    font-weight: 550;
+    margin-bottom: 20px;
+}
+
+.icone-montanhas {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.icone-cozinha {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.icone-wifi {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.icone-espaco {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.icone-estacionamento {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.icone-alarme {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.icone-alarme p {
+    text-decoration: line-through;
+}
+
+.icone-fumaca {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.icone-fumaca p {
+    text-decoration: line-through;
+}
